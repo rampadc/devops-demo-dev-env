@@ -55,7 +55,7 @@ metadata:
   name: web
   namespace: dev
 spec:
-applicationImage: us.icr.io/devops-gse-poc/refarch-cloudnative-bluecompute-web-appsody:ce7ed4d53e33d724499ccd97cf68ce01c8139377
+applicationImage: us.icr.io/devops-gse-poc/devops-demo-bluecompute-web:bfe3a668f883a9e55e5166bf3108bbb8b4f47fa8
   createKnativeService: false
   expose: true
   service:
