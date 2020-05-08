@@ -1,2 +1,2 @@
-# devops-demo-qa-env
-Repository for QA env
+# devops-demo-dev-env
+Repository for DEV env
