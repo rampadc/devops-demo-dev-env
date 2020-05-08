@@ -4,7 +4,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: web-config
-  labels:    
+  labels:
     app: "web"
     tier: "frontend"
     version: "v1"
@@ -58,7 +58,6 @@ data:
           "require": [
             "client_id",
             "oauth"
-
           ]
         },
         "oauth20": {
@@ -79,4 +78,3 @@ data:
         }
       }
     }
-
