@@ -52,22 +52,21 @@ metadata:
   labels:
     image.opencontainers.org/title: web
     stack.appsody.dev/version: 0.2.5
+    app: "web"
   name: web
-  namespace: dev-a
+  #namespace: dev
 spec:
-applicationImage: ibmcase/bluecompute-web:0.6.0 
+  applicationImage: hollisc/bluecompute-web-appsody #dev.local/web
   createKnativeService: false
+  selector:
+    matchLabels:
+      app: "web"
   expose: true
   service:
     port: 8000
-    targetPort: 8000
     type: ClusterIP
   stack: nodejs
   version: 1.0.0
   pullSecret: ibm-cr-pull-secret
   #serviceAccountName: kabanero-operator
   #replicas: 2
-
-
-
-
