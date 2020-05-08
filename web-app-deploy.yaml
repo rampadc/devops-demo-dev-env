@@ -67,5 +67,4 @@ spec:
   stack: nodejs
   version: 1.0.0
   pullSecret: ibm-cr-pull-secret
-  #serviceAccountName: kabanero-operator
-  #replicas: 2
+  replicas: 1
