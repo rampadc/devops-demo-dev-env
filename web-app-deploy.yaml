@@ -55,7 +55,7 @@ metadata:
     app: "web"
   name: web
 spec:
-  applicationImage: hollisc/bluecompute-web-appsody #dev.local/web
+  applicationImage: ibmcase/bluecompute-web:0.6.0
   createKnativeService: false
   selector:
     matchLabels:
