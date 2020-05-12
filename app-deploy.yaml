@@ -55,7 +55,7 @@ metadata:
     app: "web"
   name: web
 spec:
-  applicationImage: us.icr.io/devops-gse-poc/devops-demo-bluecompute-web:e37f3c2b2ca94bccb6080f7a7d75dcd2c66d5fc5 
+applicationImage: us.icr.io/devops-gse-poc/devops-demo-bluecompute-web:913082ddd1f4cf68b66f67ec2a9d792daced9b10
   createKnativeService: false
   selector:
     matchLabels:
