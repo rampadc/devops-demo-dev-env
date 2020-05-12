@@ -55,7 +55,7 @@ metadata:
     app: "web"
   name: web
 spec:
-applicationImage: us.icr.io/devops-gse-poc/refarch-cloudnative-bluecompute-web-appsody:6d9b768df38e8172e2fda6f0f2020d80b35dd4c8
+  applicationImage: us.icr.io/devops-gse-poc/devops-demo-bluecompute-web:e37f3c2b2ca94bccb6080f7a7d75dcd2c66d5fc5 
   createKnativeService: false
   selector:
     matchLabels:
